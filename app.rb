@@ -14,7 +14,7 @@ end
 
 post '/sign_in' do
   # Your organizations SSO key is present in the Admin Dashboard > Organization Settings > Advanced > SSO Key
-  key = <ORGNAIZATION_SSO_KEY>
+  key = 'REytUsACdAOK402yTvL3SQ'
   payload = {
     email: params[:email],
     name: params[:name]
